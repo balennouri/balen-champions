@@ -15,6 +15,7 @@ body {
     font-family: 'Lato', sans-serif;
     color: #ffffff;
     text-align: center;
+    align-items: center;
 }
 
 header {
@@ -38,4 +39,33 @@ h1 h3 {
     font-family: 'Kalnia', sans-serif;
     font-size: larger;
     text-align: center;
+}
+
+/* Heading styling logo */
+
+.cl-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cl-logo img {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*welcome and quiz area */
+
+.container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: fit-content;
+    border-radius: 20px;
+    background-color: #40689a;
 }
