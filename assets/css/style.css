@@ -1,0 +1,41 @@
+/* Google font*/
+@import url('https://fonts.googleapis.com/css2?family=Kalnia&family=Lato:ital,wght@1,300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* General styles */
+body {
+    background-color: #003678;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+i {
+    color: #ffffff;
+}
+
+h1 h3 {
+    font-family: 'Kalnia', sans-serif;
+    font-size: larger;
+    text-align: center;
+}
